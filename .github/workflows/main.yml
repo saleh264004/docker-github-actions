@@ -24,7 +24,7 @@ jobs:
             run: ls 
             
           - name: "Login To Docker Hub"
-            run: docker login --username saleh264 --password ${{ secrets.DOCKER_TOCKEN }}
+            run: docker login --username saleh264 --password ${{ secrets.DOCKER_TOKEN }}
 
 
 
